@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Pasajeros Vuelo VB 6019 (AIFA → Mérida) | Reclama tus Derechos</title>
+  <meta name="description" content="Guía rápida de 3 minutos para pasajeros del vuelo Viva Aerobus VB 6019 en Puerta 104 (AIFA a Mérida). El voucher del 8% confirma culpa operativa: reclama alimentos e indemnización en PROFECO.">
+  <meta name="theme-color" content="#030712">
+
+  <!-- Open Graph / WhatsApp Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🚨 Pasajeros Vuelo VB 6019 (AIFA → Mérida) | Guía Rápida PROFECO">
+  <meta property="og:description" content="Al liberar el 8% reconocieron culpa de la aerolínea (no clima). Sigue estos 3 pasos y copia tu queja lista en 1 minuto. Si somos +30 aplica Acción Colectiva.">
+
+  <!-- Favicon inline SVG (cero peticiones extra) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚨</text></svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Generador QR local ultrarrápido (funciona incluso con mala señal en sala) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            slate: {
+              950: '#030712',
+              900: '#0f172a',
+              850: '#131c31',
+              800: '#1e293b',
+              700: '#334155'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html {
+      -webkit-tap-highlight-color: transparent;
+      scroll-behavior: smooth;
+    }
+    .tap-press {
+      transition: transform 0.1s ease, background-color 0.15s ease, border-color 0.15s ease;
+    }
+    .tap-press:active {
+      transform: scale(0.98);
+    }
+    details > summary {
+      list-style: none;
+    }
+    details > summary::-webkit-details-marker {
+      display: none;
+    }
+    details[open] .chevron-icon {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen selection:bg-emerald-500 selection:text-slate-950 flex flex-col items-center">
+
+  <!-- Barra superior pegajosa de acción rápida -->
+  <div class="sticky top-0 z-40 w-full bg-slate-950/90 backdrop-blur-md border-b border-slate-800/90">
+    <div class="max-w-md mx-auto px-4 py-2.5 flex items-center justify-between gap-2">
+      <div class="flex items-center gap-2 min-w-0">
+        <span class="relative flex h-2.5 w-2.5 flex-shrink-0">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-500"></span>
+        </span>
+        <span class="text-xs font-black tracking-wide text-slate-100 truncate">VB 6019 • PUERTA 104</span>
+      </div>
+      <div class="flex items-center gap-1.5 flex-shrink-0">
+        <button
+          onclick="openQrModal()"
+          type="button"
+          class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-extrabold flex items-center gap-1.5 tap-press shadow-sm">
+          <span>📲 QR</span>
+        </button>
+        <a
+          href="#herramientas"
+          class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100 text-xs font-bold tap-press">
+          Ir a Queja &darr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor Principal Mobile-First -->
+  <main class="w-full max-w-md mx-auto px-4 py-4 flex flex-col gap-5 pb-20">
+
+    <!-- 1. HEADER DE ALERTA URGENTE -->
+    <header class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-2xl relative overflow-hidden">
+      <div class="absolute -top-14 -right-14 w-36 h-36 bg-rose-600/15 rounded-full blur-2xl pointer-events-none"></div>
+
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/35 text-rose-300 text-[11px] font-black tracking-wider uppercase mb-3">
+        <span>🚨 ALERTA PASAJEROS VUELO VB 6019</span>
+      </div>
+
+      <h1 class="text-2xl font-black text-white leading-tight mb-2">
+        AIFA (NLU) &rarr; Mérida (MID)
+      </h1>
+      <p class="text-xs text-slate-300 leading-relaxed mb-3.5">
+        No dejes perder tu reembolso ni tu indemnización. Toma <strong class="text-white">3 minutos</strong> defender tus derechos y si juntamos <strong class="text-amber-300">30+ quejas</strong> activamos <strong class="text-amber-300">Acción Colectiva</strong> en PROFECO.
+      </p>
+
+      <div class="flex flex-wrap items-center gap-1.5 text-xs font-semibold text-slate-200 mb-4">
+        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-md">🚪 Puerta 104</span>
+        <span class="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-md">✈️ Avión XA-VBV</span>
+        <span class="px-2.5 py-1 bg-rose-950/90 border border-rose-800 text-rose-300 rounded-md font-bold">⏱ +3 Horas Demora</span>
+      </div>
+
+      <div class="grid grid-cols-1 gap-2.5">
+        <button
+          onclick="openQrModal()"
+          type="button"
+          class="w-full py-4 px-4 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-sm rounded-xl shadow-lg shadow-emerald-950/60 flex items-center justify-center gap-2.5 tap-press">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+          </svg>
+          <span>📲 Mostrar QR al pasajero de al lado</span>
+        </button>
+
+        <button
+          onclick="shareLink()"
+          type="button"
+          class="w-full py-3 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-100 font-bold text-xs rounded-xl flex items-center justify-center gap-2 tap-press">
+          <span>💬 Compartir enlace por WhatsApp / AirDrop</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- 2. LA CONTRADICCIÓN CLAVE (POR QUÉ SÍ NOS TOCA) -->
+    <section class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
+      <div class="flex items-center gap-2.5 mb-3.5">
+        <div class="w-8 h-8 rounded-lg bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-base flex-shrink-0">
+          ⚡
+        </div>
+        <h2 class="text-lg font-black text-white leading-snug">
+          ¿Por qué SÍ nos tocan alimentos e indemnización?
+        </h2>
+      </div>
+
+      <div class="space-y-3">
+        <!-- Punto 1 -->
+        <div class="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800 flex items-start gap-3">
+          <span class="text-lg flex-shrink-0 mt-0.5">🛑</span>
+          <div>
+            <h3 class="text-sm font-bold text-rose-400 mb-0.5">El pretexto del "clima" en mostrador</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              En Puerta 104 niegan los vales de comida alegando <em>"repercusión por clima"</em> y rechazan dar constancia escrita diciendo que es <em>"información interna de Monterrey"</em>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Punto 2 -->
+        <div class="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800 flex items-start gap-3">
+          <span class="text-lg flex-shrink-0 mt-0.5">✈️</span>
+          <div>
+            <h3 class="text-sm font-bold text-amber-300 mb-0.5">Lo que el propio personal informó en sala</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Frente a los pasajeros en mostrador, la agente informó que en Mérida <strong class="text-white">NO está lloviendo ni hay mal clima</strong>, sino que el avión asignado (<strong class="text-white">Airbus A321 matrícula XA-VBV</strong>) <em>"viene demorado de otro destino"</em> (arrastrando retraso operativo previo desde Miami y Tuxtla Gutiérrez).
+            </p>
+          </div>
+        </div>
+
+        <!-- Punto 3: La contradicción del 8% -->
+        <div class="p-4 rounded-xl bg-emerald-950/25 border border-emerald-500/35 flex items-start gap-3">
+          <span class="text-lg flex-shrink-0 mt-0.5">⚖️</span>
+          <div>
+            <h3 class="text-sm font-black text-emerald-400 mb-1">La contradicción del 8%: ellos solos se echaron de cabeza</h3>
+            <p class="text-xs text-slate-200 leading-relaxed">
+              El supervisor en turno, <strong class="text-white">Miguel Rivera</strong>, sostuvo que era <em>"clima"</em>, pero admitió que el sistema <strong class="text-emerald-300">ya liberó el 8% de compensación en voucher</strong>.
+            </p>
+            <p class="text-xs text-slate-300 mt-2 pt-2 border-t border-emerald-500/20 leading-relaxed">
+              👉 <strong class="text-white">Por ley (Art. 47 Bis Ley de Aviación Civil):</strong> si fuera clima real no darían ni un peso. <strong class="text-emerald-300">El cupón del 8% SOLO existe cuando la demora es culpa imputable a Viva Aerobus</strong>, y la ley prohíbe dar el 8% y negar los alimentos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESPLEGABLE: FUNDAMENTACIÓN LEGAL COMPLETA -->
+      <details class="mt-4 group bg-slate-950 border border-slate-800 rounded-xl overflow-hidden">
+        <summary class="p-3.5 cursor-pointer flex items-center justify-between gap-2 text-xs font-extrabold text-amber-300 hover:bg-slate-900/80 select-none">
+          <span class="flex items-center gap-2">
+            <span>📚</span>
+            <span>Ver Fundamentación Legal Completa (Artículos Exactos)</span>
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-amber-400 transition-transform duration-200 chevron-icon flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </summary>
+
+        <div class="px-4 pb-4 pt-1 space-y-3 text-xs text-slate-300 border-t border-slate-800/80 leading-relaxed">
+          <div>
+            <h4 class="font-bold text-white mt-2">1. El 8% es prueba legal de culpa de la aerolínea (Art. 47 Bis, Fracción V, LAC)</h4>
+            <p class="text-slate-400 mt-0.5">
+              El <strong>Artículo 47 Bis, fracción V de la Ley de Aviación Civil</strong> establece que las compensaciones tarifarias únicamente proceden <em>"en caso de que exista retraso en relación con la hora de salida estipulada en el boleto y la causa sea atribuible al concesionario o permisionario"</em>. Para demoras de 2 a 4 horas, la ley fija un mínimo de 7.5% y Viva Aerobus registró ante PROFECO y AFAC el <strong>8%</strong>. Bajo el principio jurídico de <em>actos propios</em>, al emitir el 8% Viva Aerobus ya clasificó oficialmente el retraso como imputable a su operación.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-bold text-white">2. Ilegalidad de dar el 8% y negar alimentos (Políticas Registradas PROFECO/AFAC)</h4>
+            <p class="text-slate-400 mt-0.5">
+              Conforme al <strong>Art. 47 Bis, fracción V, inciso a) y penúltimo párrafo de la LAC</strong>, las políticas de compensación registradas semestralmente ante AFAC y PROFECO son obligatorias. En el rango de 2 a 4 horas imputables a la empresa, Viva Aerobus está obligada a otorgar <strong>tanto el descuento del 8% como alimentos y bebidas en sala de espera</strong> (más acceso a comunicación). No es opcional elegir uno y negar el otro.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-bold text-white">3. Si pasa de 4 horas sube al 25% del boleto + TUA (Art. 47 Bis, Fracciones VI y IX, LAC)</h4>
+            <p class="text-slate-400 mt-0.5">
+              Al superar <strong>4 horas de demora</strong> imputable, se activan por ley las obligaciones de cancelación: alimentos/bebidas inmediatos (y hospedaje + transporte si requiere pernocta), además de una <strong>indemnización mínima del 25% del precio pagado por el boleto (incluyendo TUA)</strong>, pagadera en un plazo máximo de <strong>10 días naturales</strong>.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-bold text-white">4. Ocultar causas diciendo "es interno de Monterrey" viola la ley (Art. 47 Bis, Fracción IV, LAC y Art. 7 LFPC)</h4>
+            <p class="text-slate-400 mt-0.5">
+              La aerolínea está obligada por ley a informar con veracidad a los pasajeros las causas del retraso por medios electrónicos o físicos en el área de abordaje. Negar constancia escrita incumple su deber legal de información.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-bold text-white">5. Reembolso en efectivo de tickets + 20% adicional y Carga de la Prueba (Arts. 85, 92 Bis y 92 TER LFPC)</h4>
+            <p class="text-slate-400 mt-0.5">
+              Ante el incumplimiento de asistencia obligatoria, la <strong>Ley Federal de Protección al Consumidor</strong> respalda exigir el <strong>reembolso íntegro en efectivo</strong> de los alimentos y bebidas (sin alcohol) comprados durante la espera, más una <strong>bonificación no menor al 20%</strong> del servicio incumplido. Además, <strong>tú no tienes que probar el clima</strong>: en PROFECO la carga de la prueba es de Viva Aerobus, quien tendría que exhibir un dictamen/NOTAM oficial de <strong>SENEAM o AFAC</strong> cerrando operaciones en NLU o MID.
+            </p>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- 3. CHECKLIST INTERACTIVO DE 3 PASOS -->
+    <section class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
+      <div class="flex items-center justify-between gap-2 mb-3">
+        <h2 class="text-lg font-black text-white">
+          ✅ Haz estos 3 pasos ahorita
+        </h2>
+        <span id="progressBadge" class="text-[11px] font-extrabold px-2.5 py-1 rounded-full bg-slate-800 border border-slate-700 text-slate-300">
+          0 / 3 listos
+        </span>
+      </div>
+      <p class="text-xs text-slate-400 mb-4">
+        Ve marcando cada casilla conforme avances (se guarda aquí en tu celular):
+      </p>
+
+      <div class="space-y-3">
+        <!-- Paso 1 -->
+        <label for="step1" class="block p-4 rounded-xl bg-slate-950/85 border border-slate-800 cursor-pointer hover:border-slate-700 transition-colors">
+          <div class="flex items-start gap-3">
+            <input id="step1" type="checkbox" onchange="updateChecklist()" class="mt-0.5 w-5 h-5 rounded accent-emerald-500 flex-shrink-0">
+            <div class="text-xs leading-relaxed">
+              <div class="font-black text-sm text-white mb-1">1. Exige vale en P104 o guarda ticket de comida</div>
+              <p class="text-slate-300 mb-2">
+                Pide tu vale de alimentos con el supervisor <strong class="text-white">Miguel Rivera</strong> (abajo tienes el guion exacto para leerle).
+              </p>
+              <div class="p-2.5 rounded-lg bg-amber-950/35 border border-amber-500/30 text-amber-200">
+                🧾 Si te lo niegan y compras agua, café o comida en el <strong>OXXO (puertas 106/107 o 111)</strong> o restaurantes 24h, <strong>pide ticket impreso (sin alcohol)</strong>. PROFECO los obliga a pagártelo en efectivo.
+              </div>
+            </div>
+          </div>
+        </label>
+
+        <!-- Paso 2 -->
+        <label for="step2" class="block p-4 rounded-xl bg-slate-950/85 border border-slate-800 cursor-pointer hover:border-slate-700 transition-colors">
+          <div class="flex items-start gap-3">
+            <input id="step2" type="checkbox" onchange="updateChecklist()" class="mt-0.5 w-5 h-5 rounded accent-emerald-500 flex-shrink-0">
+            <div class="text-xs leading-relaxed">
+              <div class="font-black text-sm text-white mb-1">2. Toma estas 3 fotos AHORITA (antes de abordar)</div>
+              <ul class="space-y-1 text-slate-300 mt-1.5">
+                <li>📸 <strong class="text-white">Foto 1:</strong> Tu pase de abordar (físico o captura digital).</li>
+                <li>📸 <strong class="text-white">Foto 2:</strong> La pantalla del AIFA mostrando la demora del vuelo <strong class="text-white">VB 6019</strong>.</li>
+                <li>📸 <strong class="text-white">Foto 3:</strong> Captura del correo o app de Viva donde aparece el <strong class="text-emerald-300">voucher del 8%</strong> (¡esa es tu prueba reina!).</li>
+              </ul>
+            </div>
+          </div>
+        </label>
+
+        <!-- Paso 3 -->
+        <label for="step3" class="block p-4 rounded-xl bg-slate-950/85 border border-slate-800 cursor-pointer hover:border-slate-700 transition-colors">
+          <div class="flex items-start gap-3">
+            <input id="step3" type="checkbox" onchange="updateChecklist()" class="mt-0.5 w-5 h-5 rounded accent-emerald-500 flex-shrink-0">
+            <div class="text-xs leading-relaxed">
+              <div class="font-black text-sm text-white mb-1">3. Manda tu queja en 1 minuto (correo o Concilianet)</div>
+              <p class="text-slate-300">
+                Incluso si no compraste comida, tienes derecho a reclamar indemnización + <strong class="text-emerald-400">20% adicional por ley</strong> (y si pasamos de 4 horas, <strong class="text-emerald-400">25% del boleto completo</strong>). Usa las herramientas de aquí abajo.
+              </p>
+            </div>
+          </div>
+        </label>
+      </div>
+    </section>
+
+    <!-- 4. SECCIÓN DE HERRAMIENTAS: TEXTOS LISTOS Y ENVÍO EN 1 CLIC -->
+    <section id="herramientas" class="space-y-4 scroll-mt-16">
+      <div class="px-1">
+        <h2 class="text-lg font-black text-white">
+          🛠️ Textos Listos para Usar (Cero Esfuerzo)
+        </h2>
+        <p class="text-xs text-slate-400 mt-0.5">
+          Copia en un toque o envía directo desde tu celular.
+        </p>
+      </div>
+
+      <!-- BLOQUE A: GUION DE MOSTRADOR -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
+        <div class="flex items-center justify-between gap-2 mb-2">
+          <span class="text-[11px] font-black uppercase tracking-wider text-amber-300 px-2.5 py-0.5 bg-amber-950/70 border border-amber-700/70 rounded">
+            Paso A • En Puerta 104
+          </span>
+          <span class="text-[11px] text-slate-400">Para decir o mostrar</span>
+        </div>
+
+        <h3 class="text-sm font-bold text-white mb-2.5">
+          Guion para exigir tus alimentos en mostrador ahorita
+        </h3>
+
+        <div id="textBloqueA" class="bg-slate-950 border border-slate-800 text-slate-200 text-xs p-3.5 rounded-xl leading-relaxed mb-3">Miguel, el propio sistema de Viva Aerobus ya liberó el 8% de compensación y aquí mismo en mostrador se informó a los pasajeros que en Mérida no hay mal clima, sino que el avión XA-VBV viene arrastrando demora de destinos previos. Conforme al Artículo 47 Bis, fracción V de la Ley de Aviación Civil, el 8% solo se activa cuando la demora es imputable a la aerolínea, por lo que es ilegal dar el 8% y negar los alimentos. Solicito mi vale de alimentos y bebidas ahorita, o confírmame la negativa para ingresar mi ticket de consumo en la queja colectiva ante PROFECO.</div>
+
+        <button
+          id="btnCopyA"
+          onclick="copyFromElement('textBloqueA', 'btnCopyA')"
+          type="button"
+          class="w-full py-3.5 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-bold text-sm rounded-xl flex items-center justify-center gap-2 tap-press">
+          <span>📋</span>
+          <span class="btn-label">Copiar Guion de Mostrador</span>
+        </button>
+      </div>
+
+      <!-- BLOQUE B: GENERADOR Y ENVÍO DE QUEJA PROFECO -->
+      <div class="bg-slate-900 border border-emerald-500/35 rounded-2xl p-5 shadow-2xl">
+        <div class="flex items-center justify-between gap-2 mb-2">
+          <span class="text-[11px] font-black uppercase tracking-wider text-emerald-300 px-2.5 py-0.5 bg-emerald-950/80 border border-emerald-700/70 rounded">
+            Paso B • Queja PROFECO
+          </span>
+          <span class="text-[11px] text-emerald-400 font-semibold">🔒 100% privado en tu cel</span>
+        </div>
+
+        <h3 class="text-base font-black text-white mb-1">
+          Tu Escrito Legal Listo para PROFECO
+        </h3>
+        <p class="text-xs text-slate-400 mb-3.5">
+          Opcional: llena tus datos abajo para que se inserten solos en el escrito (o déjalo vacío y cópialo directo).
+        </p>
+
+        <!-- Selector de horas de demora (+3h vs +4h) -->
+        <div class="mb-3">
+          <label class="block text-[11px] font-bold text-slate-300 uppercase tracking-wider mb-1.5">
+            ¿Cuánto lleva demorado el vuelo?
+          </label>
+          <div class="grid grid-cols-2 gap-2">
+            <button
+              id="btnDelay3"
+              type="button"
+              onclick="setDelayMode('3h')"
+              class="py-2.5 px-3 rounded-xl text-xs font-extrabold border bg-emerald-600/20 border-emerald-500 text-emerald-300 tap-press">
+              ⏱ +3 Horas (Actual)
+            </button>
+            <button
+              id="btnDelay4"
+              type="button"
+              onclick="setDelayMode('4h')"
+              class="py-2.5 px-3 rounded-xl text-xs font-bold border bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200 tap-press">
+              🚨 Ya pasó de 4 Horas (+25%)
+            </button>
+          </div>
+        </div>
+
+        <!-- Campos rápidos opcionales -->
+        <div class="grid grid-cols-2 gap-2.5 mb-3.5">
+          <div class="col-span-2">
+            <input
+              id="inputName"
+              type="text"
+              oninput="renderLegalText()"
+              placeholder="Tu nombre completo (opcional)"
+              class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 focus:border-emerald-500 focus:outline-none text-xs text-white placeholder-slate-500">
+          </div>
+          <div>
+            <input
+              id="inputPnr"
+              type="text"
+              maxlength="10"
+              oninput="this.value = this.value.toUpperCase(); renderLegalText()"
+              placeholder="Clave reserva (ej. AB12CD)"
+              class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 focus:border-emerald-500 focus:outline-none text-xs text-white placeholder-slate-500 uppercase">
+          </div>
+          <div>
+            <input
+              id="inputExpense"
+              type="number"
+              inputmode="decimal"
+              oninput="renderLegalText()"
+              placeholder="Gasto comida $ MXN (opc.)"
+              class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 focus:border-emerald-500 focus:outline-none text-xs text-white placeholder-slate-500">
+          </div>
+          <div class="col-span-2">
+            <input
+              id="inputPhone"
+              type="tel"
+              oninput="renderLegalText()"
+              placeholder="Tu teléfono a 10 dígitos (útil si envías por correo)"
+              class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 focus:border-emerald-500 focus:outline-none text-xs text-white placeholder-slate-500">
+          </div>
+        </div>
+
+        <!-- Vista previa del texto legal -->
+        <div class="mb-3.5">
+          <textarea
+            id="textBloqueB"
+            readonly
+            rows="8"
+            class="w-full bg-slate-950 border border-slate-800 text-slate-300 text-[11px] p-3.5 rounded-xl leading-relaxed font-mono focus:outline-none resize-y"></textarea>
+        </div>
+
+        <!-- Botones de Acción de Alta Conversión -->
+        <div class="space-y-2.5">
+          <!-- 1. Copiar Texto -->
+          <button
+            id="btnCopyB"
+            onclick="copyFromTextarea('textBloqueB', 'btnCopyB')"
+            type="button"
+            class="w-full py-4 px-4 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-sm rounded-xl shadow-lg shadow-emerald-950/60 flex items-center justify-center gap-2 tap-press">
+            <span>📋</span>
+            <span class="btn-label">1. Copiar Texto Legal PROFECO</span>
+          </button>
+
+          <!-- 2. Opción Ultra Rápida por Correo Conciliaexprés -->
+          <button
+            onclick="sendViaEmail()"
+            type="button"
+            class="w-full py-3.5 px-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs rounded-xl flex items-center justify-center gap-2 tap-press">
+            <span>📧</span>
+            <span>Opción Rápida (30 seg): Abrir en mi Correo para PROFECO</span>
+          </button>
+          <p class="text-[11px] text-slate-400 text-center px-2">
+            👆 Abre tu app de correo ya dirigida a <strong class="text-slate-200">conciliaexpres@profeco.gob.mx</strong> con todo el texto puesto. Solo adjunta tus 3 fotos + tu INE y toca Enviar.
+          </p>
+
+          <!-- 3. Portal Concilianet + Razón Social exacta -->
+          <div class="pt-2 border-t border-slate-800">
+            <a
+              href="https://concilianet.profeco.gob.mx/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full py-3.5 px-4 bg-sky-600 hover:bg-sky-500 text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-2 tap-press">
+              <span>🌐 Ir a Portal Formal Concilianet PROFECO</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+
+            <!-- Tip de oro para Concilianet -->
+            <div class="mt-2.5 p-3 rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-between gap-2">
+              <div class="text-[11px] text-slate-300 leading-snug">
+                💡 En Concilianet busca a Viva por su <strong class="text-white">razón social</strong>:
+                <span id="razonSocialText" class="block font-mono text-sky-300 font-bold mt-0.5">AEROENLACES NACIONALES, S.A. DE C.V.</span>
+              </div>
+              <button
+                id="btnCopyRazon"
+                type="button"
+                onclick="copyRawString('AEROENLACES NACIONALES, S.A. DE C.V.', 'btnCopyRazon')"
+                class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-[11px] font-bold text-slate-200 flex-shrink-0 tap-press">
+                <span class="btn-label">Copiar</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FOOTER INFORMATIVO Y ACCIÓN COLECTIVA -->
+    <footer class="bg-slate-900 border border-slate-800 rounded-2xl p-5 text-center space-y-3.5">
+      <div>
+        <p class="text-xs uppercase tracking-wider text-slate-400 font-extrabold">
+          Teléfono del Consumidor y Conciliaexprés PROFECO
+        </p>
+        <p class="text-[11px] text-slate-400 mt-0.5">
+          También puedes levantar o dar seguimiento a tu folio por teléfono:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 gap-2">
+        <a
+          href="tel:5555688722"
+          class="w-full py-3.5 px-4 bg-slate-800 hover:bg-slate-700 text-emerald-400 font-black text-sm rounded-xl border border-slate-700 flex items-center justify-center gap-2 tap-press">
+          <span>📞 Llamar CDMX / Área Metrop.: 55 5568 8722</span>
+        </a>
+        <a
+          href="tel:8004688722"
+          class="w-full py-3 px-4 bg-slate-950 hover:bg-slate-800 text-slate-200 font-bold text-xs rounded-xl border border-slate-800 flex items-center justify-center gap-2 tap-press">
+          <span>☎️ Lada sin costo nacional: 800 468 8722</span>
+        </a>
+      </div>
+
+      <div class="pt-3 border-t border-slate-800 space-y-1.5">
+        <p class="text-xs text-slate-200 font-bold">
+          🤝 Hecho por pasajeros del vuelo VB 6019 en la Sala / Puerta 104.
+        </p>
+        <p class="text-xs text-amber-300 font-semibold leading-relaxed">
+          Pasa el QR a tu fila: con 30 o más pasajeros inconformes se configura Acción Colectiva ante PROFECO (Art. 578 CFPC / Art. 26 LFPC).
+        </p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- MODAL: CÓDIGO QR DE ALTO CONTRASTE PARA ESCANEO RÁPIDO -->
+  <div
+    id="qrModal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="qrModalTitle"
+    class="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex items-end sm:items-center justify-center p-3 sm:p-4 hidden">
+
+    <div class="w-full max-w-sm bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl relative text-center flex flex-col items-center">
+      <button
+        onclick="closeQrModal()"
+        type="button"
+        aria-label="Cerrar ventana QR"
+        class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-800 text-slate-300 hover:text-white flex items-center justify-center font-bold tap-press">
+        ✕
+      </button>
+
+      <span class="text-[11px] font-black uppercase tracking-widest text-emerald-400 mb-1">
+        Puerta 104 • Vuelo VB 6019
+      </span>
+      <h3 id="qrModalTitle" class="text-lg font-black text-white mb-1">
+        Escanea con la cámara de tu cel
+      </h3>
+      <p class="text-xs text-slate-400 mb-4 px-2">
+        Muéstrale tu pantalla a los pasajeros de tu fila para que descarguen el formato de queja en 3 segundos.
+      </p>
+
+      <!-- Caja blanca de alto contraste para lectura instantánea de cámara -->
+      <div class="bg-white p-4 rounded-2xl shadow-lg mb-5 flex items-center justify-center min-w-[236px] min-h-[236px]">
+        <div id="qrCanvasContainer" class="flex items-center justify-center"></div>
+        <img
+          id="qrFallbackImg"
+          src=""
+          alt="Código QR para abrir esta guía"
+          width="220"
+          height="220"
+          class="w-[220px] h-[220px] object-contain hidden"
+        />
+      </div>
+
+      <div class="w-full space-y-2.5">
+        <button
+          onclick="shareLink()"
+          type="button"
+          class="w-full py-3.5 px-4 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-sm rounded-xl flex items-center justify-center gap-2 tap-press">
+          <span>📲 Compartir enlace (AirDrop / Apps)</span>
+        </button>
+
+        <a
+          id="btnWhatsAppModal"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full py-3.5 px-4 bg-[#25D366] hover:bg-[#20bd5a] text-slate-950 font-black text-sm rounded-xl flex items-center justify-center gap-2 tap-press">
+          <span>💬 Enviar por WhatsApp</span>
+        </a>
+
+        <button
+          onclick="closeQrModal()"
+          type="button"
+          class="w-full py-2 text-xs text-slate-400 font-semibold hover:text-white">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LÓGICA VANILLA JS -->
+  <script>
+    let currentDelayMode = '3h';
+    let qrRendered = false;
+
+    function getCleanPageUrl() {
+      return window.location.href.split('#')[0];
+    }
+
+    function getShareMessage() {
+      return "🚨 Pasajeros vuelo Viva Aerobus VB 6019 (AIFA -> Mérida) en Puerta 104: Al dar el voucher del 8% reconocieron culpa de la aerolínea (no clima) y nos tocan alimentos e indemnización. Aquí está la guía y la queja lista en 1 minuto para PROFECO: " + getCleanPageUrl();
+    }
+
+    // Construye dinámicamente el texto legal según modo (+3h o +4h) y datos opcionales
+    function buildLegalComplaintText() {
+      const name = document.getElementById('inputName').value.trim();
+      const pnr = document.getElementById('inputPnr').value.trim();
+      const expense = document.getElementById('inputExpense').value.trim();
+      const phone = document.getElementById('inputPhone').value.trim();
+
+      const headerDatos = [];
+      if (name) headerDatos.push(`Nombre del pasajero: ${name}`);
+      if (pnr) headerDatos.push(`Clave de reservación: ${pnr}`);
+      if (phone) headerDatos.push(`Teléfono de contacto: ${phone}`);
+      const datosPrefix = headerDatos.length > 0 ? headerDatos.join(' | ') + '\n\n' : '';
+
+      const pnrClause = pnr ? `, con clave de reservación ${pnr},` : '';
+      const delayHoursText = currentDelayMode === '4h'
+        ? 'superior a 4 horas'
+        : 'superior a 3 horas';
+
+      const expenseClause = expense
+        ? `se le condene al reembolso íntegro en efectivo de mis gastos de alimentos y bebidas erogados ante su negativa de asistencia por la cantidad de $${parseFloat(expense).toFixed(2)} MXN (conforme a comprobante anexo), `
+        : `se le condene al pago y resarcimiento en efectivo correspondiente ante la negativa ilegal de proporcionar asistencia de alimentos y bebidas en sala de espera, `;
+
+      const fourHourClause = currentDelayMode === '4h'
+        ? `así como al pago de la indemnización legal mínima del 25% del precio pagado por el boleto (incluyendo TUA) pagadera en un máximo de 10 días naturales conforme al Artículo 47 Bis, fracciones VI y IX de la Ley de Aviación Civil, `
+        : `más la compensación e indemnización legal aplicable conforme al Artículo 47 Bis de la Ley de Aviación Civil, `;
+
+      return `${datosPrefix}Por medio de la presente interpongo queja formal contra Aeroenlaces Nacionales, S.A. de C.V. (Viva Aerobus)${pnrClause} por la demora ${delayHoursText} en el vuelo VB 6019 (Ruta AIFA NLU - Mérida MID), programado originalmente para la noche del 31 de octubre de 2026 y demorado hasta la madrugada del 1 de noviembre de 2026.
+
+En la Puerta 104 del AIFA, el supervisor en turno Miguel Rivera se negó a proporcionar los vales obligatorios de alimentos y bebidas, alegando verbalmente "repercusión por clima" y negándose a entregar constancia por escrito bajo el argumento de ser "información interna de Monterrey" (incumpliendo el deber legal de información veraz del Artículo 47 Bis, fracción IV de la Ley de Aviación Civil y Artículo 7 de la Ley Federal de Protección al Consumidor).
+
+Sin embargo, el propio personal de mostrador en la Puerta 104 informó frente a los pasajeros que en Mérida no existía mal clima, sino que la aeronave asignada (Airbus A321, matrícula XA-VBV) venía arrastrando demora operativa de destinos previos (Miami y Tuxtla Gutiérrez). Asimismo, el supervisor Miguel Rivera admitió que el sistema de Viva Aerobus ya había liberado el 8% de compensación en voucher, lo cual constituye un reconocimiento expreso de responsabilidad operativa imputable a la aerolínea, toda vez que conforme al Artículo 47 Bis, fracción V de la Ley de Aviación Civil y las Políticas de Compensación registradas ante PROFECO y AFAC, dicha compensación tarifaria solo se activa por causas imputables al concesionario, siendo ilegal otorgar el cupón del 8% y negar la asistencia inmediata de alimentos y bebidas.
+
+Por lo anterior, solicito a esta H. Procuraduría requiera a la proveedora el dictamen oficial o NOTAM emitido por SENEAM/AFAC que acredite cierre meteorológico de operaciones en la ruta NLU-MID o, ante su inexistencia, ${expenseClause}${fourHourClause}y la bonificación no menor al 20% prevista en los artículos 85, 92 Bis y 92 TER de la Ley Federal de Protección al Consumidor.`;
+    }
+
+    function renderLegalText() {
+      const textarea = document.getElementById('textBloqueB');
+      textarea.value = buildLegalComplaintText();
+    }
+
+    function setDelayMode(mode) {
+      currentDelayMode = mode;
+      const btn3 = document.getElementById('btnDelay3');
+      const btn4 = document.getElementById('btnDelay4');
+
+      if (mode === '4h') {
+        btn4.className = 'py-2.5 px-3 rounded-xl text-xs font-extrabold border bg-rose-600/25 border-rose-500 text-rose-200 tap-press';
+        btn3.className = 'py-2.5 px-3 rounded-xl text-xs font-bold border bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200 tap-press';
+      } else {
+        btn3.className = 'py-2.5 px-3 rounded-xl text-xs font-extrabold border bg-emerald-600/20 border-emerald-500 text-emerald-300 tap-press';
+        btn4.className = 'py-2.5 px-3 rounded-xl text-xs font-bold border bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200 tap-press';
+      }
+      renderLegalText();
+    }
+
+    // Checklist persistente en el dispositivo
+    function updateChecklist() {
+      const ids = ['step1', 'step2', 'step3'];
+      let completed = 0;
+      const state = {};
+      ids.forEach((id) => {
+        const checked = document.getElementById(id).checked;
+        state[id] = checked;
+        if (checked) completed++;
+      });
+
+      try {
+        localStorage.setItem('vb6019_steps', JSON.stringify(state));
+      } catch (e) {}
+
+      const badge = document.getElementById('progressBadge');
+      badge.textContent = completed === 3 ? '🎉 3 / 3 ¡Listo!' : `${completed} / 3 listos`;
+      if (completed === 3) {
+        badge.className = 'text-[11px] font-extrabold px-2.5 py-1 rounded-full bg-emerald-500/20 border border-emerald-500/50 text-emerald-300';
+      } else {
+        badge.className = 'text-[11px] font-extrabold px-2.5 py-1 rounded-full bg-slate-800 border border-slate-700 text-slate-300';
+      }
+    }
+
+    function loadChecklist() {
+      try {
+        const raw = localStorage.getItem('vb6019_steps');
+        if (!raw) return;
+        const state = JSON.parse(raw);
+        ['step1', 'step2', 'step3'].forEach((id) => {
+          if (state[id]) document.getElementById(id).checked = true;
+        });
+        updateChecklist();
+      } catch (e) {}
+    }
+
+    // Copiar al portapapeles con feedback visual claro
+    function triggerCopyFeedback(buttonId) {
+      const btn = document.getElementById(buttonId);
+      if (!btn) return;
+      const label = btn.querySelector('.btn-label') || btn;
+      if (!btn.dataset.origLabel) {
+        btn.dataset.origLabel = label.textContent;
+      }
+      label.textContent = '¡Copiado! ✅';
+      btn.classList.add('ring-2', 'ring-emerald-400');
+
+      clearTimeout(btn._copyTimer);
+      btn._copyTimer = setTimeout(() => {
+        label.textContent = btn.dataset.origLabel;
+        btn.classList.remove('ring-2', 'ring-emerald-400');
+      }, 2200);
+    }
+
+    function writeClipboard(text, buttonId) {
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text)
+          .then(() => triggerCopyFeedback(buttonId))
+          .catch(() => fallbackCopy(text, buttonId));
+      } else {
+        fallbackCopy(text, buttonId);
+      }
+    }
+
+    function fallbackCopy(text, buttonId) {
+      const temp = document.createElement('textarea');
+      temp.value = text;
+      temp.setAttribute('readonly', '');
+      temp.style.position = 'fixed';
+      temp.style.opacity = '0';
+      document.body.appendChild(temp);
+      temp.focus();
+      temp.select();
+      try {
+        document.execCommand('copy');
+        triggerCopyFeedback(buttonId);
+      } catch (err) {
+        alert('Mantén presionado el texto para seleccionarlo y copiarlo.');
+      }
+      document.body.removeChild(temp);
+    }
+
+    function copyFromElement(elementId, buttonId) {
+      const text = document.getElementById(elementId).innerText.trim();
+      writeClipboard(text, buttonId);
+    }
+
+    function copyFromTextarea(textareaId, buttonId) {
+      const text = document.getElementById(textareaId).value.trim();
+      writeClipboard(text, buttonId);
+    }
+
+    function copyRawString(str, buttonId) {
+      writeClipboard(str, buttonId);
+    }
+
+    // Envío directo en 1 clic a Conciliaexprés PROFECO por correo
+    function sendViaEmail() {
+      const pnr = document.getElementById('inputPnr').value.trim();
+      const subject = `QUEJA VUELO VIVA AEROBUS VB 6019 (AIFA-MERIDA)${pnr ? ' - RESERVA ' + pnr : ''} - PUERTA 104`;
+      const reminder = "[IMPORTANTE ANTES DE ENVIAR: Adjunta aquí tus 3 fotos (pase de abordar, pantalla demora AIFA, voucher 8%), ticket de comida si compraste, y foto de tu identificación oficial INE]\n\n";
+      const body = reminder + buildLegalComplaintText();
+
+      const mailtoUrl = `mailto:conciliaexpres@profeco.gob.mx?cc=denunciasprofeco@profeco.gob.mx&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoUrl;
+    }
+
+    // Renderizado de QR (local instantáneo + fallback por API)
+    function ensureQrRendered() {
+      if (qrRendered) return;
+      const url = getCleanPageUrl();
+      const container = document.getElementById('qrCanvasContainer');
+      const fallbackImg = document.getElementById('qrFallbackImg');
+
+      if (typeof QRCode !== 'undefined') {
+        container.innerHTML = '';
+        new QRCode(container, {
+          text: url,
+          width: 220,
+          height: 220,
+          colorDark: '#030712',
+          colorLight: '#ffffff',
+          correctLevel: QRCode.CorrectLevel.M
+        });
+        qrRendered = true;
+      } else {
+        container.classList.add('hidden');
+        fallbackImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=4&data=${encodeURIComponent(url)}`;
+        fallbackImg.classList.remove('hidden');
+        qrRendered = true;
+      }
+    }
+
+    function openQrModal() {
+      ensureQrRendered();
+      document.getElementById('qrModal').classList.remove('hidden');
+    }
+
+    function closeQrModal() {
+      document.getElementById('qrModal').classList.add('hidden');
+    }
+
+    window.addEventListener('click', (e) => {
+      const modal = document.getElementById('qrModal');
+      if (e.target === modal) closeQrModal();
+    });
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeQrModal();
+    });
+
+    function shareLink() {
+      const url = getCleanPageUrl();
+      const msg = getShareMessage();
+      if (navigator.share) {
+        navigator.share({
+          title: 'Alerta Pasajeros Vuelo VB 6019 (AIFA → Mérida)',
+          text: 'Al liberar el 8% reconocieron culpa de Viva Aerobus (no clima). Reclama alimentos e indemnización en PROFECO en 3 minutos:',
+          url: url
+        }).catch(() => {});
+      } else {
+        window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, '_blank');
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderLegalText();
+      loadChecklist();
+      const waModal = document.getElementById('btnWhatsAppModal');
+      if (waModal) {
+        waModal.href = `https://wa.me/?text=${encodeURIComponent(getShareMessage())}`;
+      }
+    });
+  </script>
+</body>
+</html>
