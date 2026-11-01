@@ -253,12 +253,12 @@
           <div class="flex items-start gap-3">
             <input id="step1" type="checkbox" onchange="updateChecklist()" class="mt-0.5 w-5 h-5 rounded accent-emerald-500 flex-shrink-0">
             <div class="text-xs leading-relaxed">
-              <div class="font-black text-sm text-white mb-1">1. Exige vale en P104 o guarda ticket de comida</div>
+              <div class="font-black text-sm text-white mb-1">1. Si compraste algo, guarda tu ticket</div>
               <p class="text-slate-300 mb-2">
-                Pide tu vale de alimentos con el supervisor <strong class="text-white">Miguel Rivera</strong> (abajo tienes el guion exacto para leerle).
+                Ya estamos abordando: <strong class="text-white">no tienes que ir a comprar nada</strong>. Solo si ya compraste agua, café o comida durante la espera, <strong class="text-white">guarda el ticket</strong> (o tómale foto ahorita para que no se pierda).
               </p>
               <div class="p-2.5 rounded-lg bg-amber-950/35 border border-amber-500/30 text-amber-200">
-                🧾 Si te lo niegan y compras agua, café o comida en el <strong>OXXO (puertas 106/107 o 111)</strong> o restaurantes 24h, <strong>pide ticket impreso (sin alcohol)</strong>. PROFECO los obliga a pagártelo en efectivo.
+                🧾 ¿Pagaste con tarjeta y no te dieron ticket? Toma captura del cargo en tu app del banco. Si compras algo a bordo, igual guarda el comprobante. Lo de alimentos y bebidas (sin alcohol) se reclama en efectivo ante PROFECO.
               </div>
             </div>
           </div>
@@ -269,12 +269,14 @@
           <div class="flex items-start gap-3">
             <input id="step2" type="checkbox" onchange="updateChecklist()" class="mt-0.5 w-5 h-5 rounded accent-emerald-500 flex-shrink-0">
             <div class="text-xs leading-relaxed">
-              <div class="font-black text-sm text-white mb-1">2. Toma estas 3 fotos AHORITA (antes de abordar)</div>
+              <div class="font-black text-sm text-white mb-1">2. Guarda tus pruebas (2 fotos rápidas)</div>
               <ul class="space-y-1 text-slate-300 mt-1.5">
                 <li>📸 <strong class="text-white">Foto 1:</strong> Tu pase de abordar (físico o captura digital).</li>
-                <li>📸 <strong class="text-white">Foto 2:</strong> La pantalla del AIFA mostrando la demora del vuelo <strong class="text-white">VB 6019</strong>.</li>
-                <li>📸 <strong class="text-white">Foto 3:</strong> Captura del correo o app de Viva donde aparece el <strong class="text-emerald-300">voucher del 8%</strong> (¡esa es tu prueba reina!).</li>
+                <li>📸 <strong class="text-white">Foto 2:</strong> La pantalla del AIFA o captura de la app de Viva mostrando la demora del vuelo <strong class="text-white">VB 6019</strong>.</li>
               </ul>
+              <p class="text-slate-400 mt-2">
+                ✉️ <strong class="text-slate-200">No esperes el correo del voucher del 8%:</strong> lo más probable es que no llegue solo. La queja de abajo ya lo reclama. Si después te llega, guárdalo como prueba extra.
+              </p>
             </div>
           </div>
         </label>
@@ -309,16 +311,19 @@
       <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
         <div class="flex items-center justify-between gap-2 mb-2">
           <span class="text-[11px] font-black uppercase tracking-wider text-amber-300 px-2.5 py-0.5 bg-amber-950/70 border border-amber-700/70 rounded">
-            Paso A • En Puerta 104
+            Paso A • A bordo
           </span>
-          <span class="text-[11px] text-slate-400">Para decir o mostrar</span>
+          <span class="text-[11px] text-slate-400">Opcional, con amabilidad</span>
         </div>
 
         <h3 class="text-sm font-bold text-white mb-2.5">
-          Guion para exigir tus alimentos en mostrador ahorita
+          Pedir algo de comer o beber a la tripulación
         </h3>
+        <p class="text-[11px] text-slate-400 mb-2.5 leading-relaxed">
+          Viva normalmente vende la comida a bordo, así que es poco probable que la regalen, pero no pierdes nada con pedirlo. Los sobrecargos no tienen la culpa: pídelo tranquilo. Si te dan algo, acéptalo; no cancela tu derecho al 8% ni a la indemnización.
+        </p>
 
-        <div id="textBloqueA" class="bg-slate-950 border border-slate-800 text-slate-200 text-xs p-3.5 rounded-xl leading-relaxed mb-3">Miguel, el propio sistema de Viva Aerobus ya liberó el 8% de compensación y aquí mismo en mostrador se informó a los pasajeros que en Mérida no hay mal clima, sino que el avión XA-VBV viene arrastrando demora de destinos previos. Conforme al Artículo 47 Bis, fracción V de la Ley de Aviación Civil, el 8% solo se activa cuando la demora es imputable a la aerolínea, por lo que es ilegal dar el 8% y negar los alimentos. Solicito mi vale de alimentos y bebidas ahorita, o confírmame la negativa para ingresar mi ticket de consumo en la queja colectiva ante PROFECO.</div>
+        <div id="textBloqueA" class="bg-slate-950 border border-slate-800 text-slate-200 text-xs p-3.5 rounded-xl leading-relaxed mb-3">Disculpe, por la demora de más de 3 horas en tierra no nos dieron alimentos en sala, y en Puerta 104 nos informaron que el sistema ya liberó el 8% de compensación (es decir, la demora es imputable a la aerolínea). Conforme al Artículo 47 Bis de la Ley de Aviación Civil, ¿nos podrían dar agua o algún alimento a bordo sin costo? Si no es posible, no hay problema, solo para dejarlo registrado en la queja ante PROFECO.</div>
 
         <button
           id="btnCopyA"
@@ -326,7 +331,7 @@
           type="button"
           class="w-full py-3.5 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-bold text-sm rounded-xl flex items-center justify-center gap-2 tap-press">
           <span>📋</span>
-          <span class="btn-label">Copiar Guion de Mostrador</span>
+          <span class="btn-label">Copiar Guion para Tripulación</span>
         </button>
       </div>
 
@@ -394,7 +399,7 @@
               type="number"
               inputmode="decimal"
               oninput="renderLegalText()"
-              placeholder="Gasto comida $ MXN (opc.)"
+              placeholder="Si compraste algo: $ MXN (opc.)"
               class="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 focus:border-emerald-500 focus:outline-none text-xs text-white placeholder-slate-500">
           </div>
           <div class="col-span-2">
@@ -437,7 +442,7 @@
             <span>Opción Rápida (30 seg): Abrir en mi Correo para PROFECO</span>
           </button>
           <p class="text-[11px] text-slate-400 text-center px-2">
-            👆 Abre tu app de correo ya dirigida a <strong class="text-slate-200">conciliaexpres@profeco.gob.mx</strong> con todo el texto puesto. Solo adjunta tus 3 fotos + tu INE y toca Enviar.
+            👆 Abre tu app de correo ya dirigida a <strong class="text-slate-200">conciliaexpres@profeco.gob.mx</strong> con todo el texto puesto. Solo adjunta tus fotos (y ticket si compraste algo) + tu INE y toca Enviar.
           </p>
 
           <!-- 3. Portal Concilianet + Razón Social exacta -->
@@ -612,7 +617,7 @@
 
       const fourHourClause = currentDelayMode === '4h'
         ? `así como al pago de la indemnización legal mínima del 25% del precio pagado por el boleto (incluyendo TUA) pagadera en un máximo de 10 días naturales conforme al Artículo 47 Bis, fracciones VI y IX de la Ley de Aviación Civil, `
-        : `más la compensación e indemnización legal aplicable conforme al Artículo 47 Bis de la Ley de Aviación Civil, `;
+        : `más la entrega efectiva de la compensación del 8% reconocida por la propia aerolínea (en caso de no haberse entregado al pasajero) y la indemnización legal aplicable conforme al Artículo 47 Bis de la Ley de Aviación Civil, `;
 
       return `${datosPrefix}Por medio de la presente interpongo queja formal contra Aeroenlaces Nacionales, S.A. de C.V. (Viva Aerobus)${pnrClause} por la demora ${delayHoursText} en el vuelo VB 6019 (Ruta AIFA NLU - Mérida MID), programado originalmente para la noche del 31 de octubre de 2026 y demorado hasta la madrugada del 1 de noviembre de 2026.
 
@@ -743,7 +748,7 @@ Por lo anterior, solicito a esta H. Procuraduría requiera a la proveedora el di
     function sendViaEmail() {
       const pnr = document.getElementById('inputPnr').value.trim();
       const subject = `QUEJA VUELO VIVA AEROBUS VB 6019 (AIFA-MERIDA)${pnr ? ' - RESERVA ' + pnr : ''} - PUERTA 104`;
-      const reminder = "[IMPORTANTE ANTES DE ENVIAR: Adjunta aquí tus 3 fotos (pase de abordar, pantalla demora AIFA, voucher 8%), ticket de comida si compraste, y foto de tu identificación oficial INE]\n\n";
+      const reminder = "[IMPORTANTE ANTES DE ENVIAR: Adjunta aquí tu pase de abordar, foto/captura de la demora, ticket de comida solo si compraste algo (y el voucher del 8% si te llegó), y foto de tu identificación oficial INE]\n\n";
       const body = reminder + buildLegalComplaintText();
 
       const mailtoUrl = `mailto:conciliaexpres@profeco.gob.mx?cc=denunciasprofeco@profeco.gob.mx&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
